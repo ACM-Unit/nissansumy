@@ -1261,8 +1261,9 @@ table th {
 }
 
 .about-block {
-	margin-left: -22px;
+	margin-left: 0px;
 	padding-top: 25px;
+	z-index: 100;
 }
 .about-block h4 {
 	margin: 0 0 25px;
