@@ -9,19 +9,19 @@
             <li>
                 <a href="${CONTEXT}/micra.jsp">
                     <img src="${CONTEXT}/index_files/cb64cc104a5538518bb194eebe60d828.png" alt="NISSAN MICRA" height="81" width="180">
-                    <br><br>NISSAN MICRA <span>от 293 430 грн.</span>
+                    <br><br>NISSAN MICRA <span>от ${micra} грн.</span>
                 </a>
             </li>
             <li>
                 <a href="${CONTEXT}/sentra.jsp">
                     <img src="${CONTEXT}/index_files/sentra-spisok.jpg" alt="NISSAN SENTRA" height="98" width="180">
-                    <br><br>NISSAN SENTRA <span>от ${micra} грн.</span>
+                    <br><br>NISSAN SENTRA <span>от ${sentra} грн.</span>
                 </a>
             </li>
             <li>
                 <a href="${CONTEXT}/juke.jsp">
                     <img src="${CONTEXT}/index_files/new-juke-4.png" alt="ОБНОВЛЕННЫЙ NISSAN JUKE" height="99" width="180">
-                    <br><br>ОБНОВЛЕННЫЙ NISSAN JUKE <span>от ${sentra} грн.</span>
+                    <br><br>ОБНОВЛЕННЫЙ NISSAN JUKE <span>от ${juke} грн.</span>
                 </a>
             </li>
             <li>
