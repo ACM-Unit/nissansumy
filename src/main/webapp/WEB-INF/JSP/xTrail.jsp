@@ -7,7 +7,7 @@
             <ul class="dropdown-inside">
                 <li><a href="${CONTEXT}/xTrailView">Обзор модели</a></li>
                 <li><a href="${CONTEXT}/xTrailSelectColor">Выбор цвета</a></li>
-                <li><a href="${CONTEXT}/pdf/Xtrail_New.pdf" download>Скачать прайс</a></li>
+                <li><a href="http://media.nissan.eu/content/dam/pes/UA/common/prices-and-equipments/Xtrail_New.pdf" download>Скачать прайс</a></li>
                 <li><a href="${CONTEXT}/pdf/X-Trail-New_ua.pdf" download>Скачать брошюру</a></li>
             </ul>
         </li>

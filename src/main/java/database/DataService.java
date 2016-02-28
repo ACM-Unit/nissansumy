@@ -1,9 +1,7 @@
 package database;
 
 import constants.Constants;
-import models.Account;
-import models.Price;
-import models.Role;
+import models.*;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
@@ -66,34 +64,70 @@ public class DataService {
 		this.putDBConnection(conn);
 		return result;
 	}
+	public void updatePrice(Price price){
+		DBConnection conn = getDBConnection();
+		conn.updatePrice(price);
+	}
 
-	public List<Account> getAllLogins() {
+	public List<News> getAllNews(int from, int count) {
 		DBConnection conn = getDBConnection();
-		List<Account> result = conn.getAllLogins();
-		this.putDBConnection(conn);		
-		return result;
-	}
-	
-	public Account getAccountByLogin(String login){
-		DBConnection conn = getDBConnection();
-		Account result = conn.getAccountByLogin(login);
+		List<News> newsList = conn.getAllNews(from, count);
 		this.putDBConnection(conn);
-		return result;
+		return newsList;
 	}
-	
-	public List<Role> getRolesById(int id){
+	public int toCountNewsFromCity() {
 		DBConnection conn = getDBConnection();
-		List<Role> result = conn.getRolesById(id);
+		int count = conn.toCountNewsFromCity();
 		this.putDBConnection(conn);
-		return result;
-		
+		return count;
 	}
-	
-	public List<Integer> getIdAccountRoles(int idAccount){
+
+	public Account getAccountByLoginPassword(String login, String password) {
 		DBConnection conn = getDBConnection();
-		List<Integer> idAccountRoles = conn.getIdAccountRoles(idAccount);
+		Account account = conn.getAccountByLoginPassword(login, password);
 		this.putDBConnection(conn);
-		return idAccountRoles;
+		return account;
+	}
+
+	public List<String> getAllUrlToOpenMeetingByCity() {
+		DBConnection conn = getDBConnection();
+		List<String> urls = conn.getAllUrlToOpenMeetingByCity();
+		this.putDBConnection(conn);
+		return urls;
+	}
+
+	public News getNewsByUrl(String url) {
+		DBConnection conn = getDBConnection();
+		News news = conn.getNewsByUrl(url);
+		this.putDBConnection(conn);
+		return news;
+	}
+
+	public void addPhotoToNews(News news) {
+		DBConnection conn = getDBConnection();
+		conn.addPhotoToNews(news);
+		this.putDBConnection(conn);
+	}
+
+	public List<News> getRecommendedNews(int newsId) {
+		DBConnection conn = getDBConnection();
+		List<News> news = conn.getRecommendedNews(newsId);
+		this.putDBConnection(conn);
+		return news;
+	}
+
+	public List<String> getAllUrlToNewsByCity() {
+		DBConnection conn = getDBConnection();
+		List<String> urls = conn.getAllUrlToNewsByCity();
+		this.putDBConnection(conn);
+		return urls;
+	}
+
+	public List<Photo> loadAllPhotosToNews() {
+		DBConnection conn = getDBConnection();
+		List<Photo> photos = conn.getAllPhotosToNews();
+		this.putDBConnection(conn);
+		return photos;
 	}
 
 	public void close() {

@@ -361,10 +361,11 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	color: rgba(0, 0, 0, 0.75);
 	display: block;
 	font-size: 1em;
-	margin: 0 0 0em 0;
+	margin: 0 auto 0em;
 	padding: 0.5em;
 	height: 2.3125em;
-	width: 100%;
+	text-align: center;
+	width: 60%;
 	-webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
 	-moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
 	transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
@@ -448,7 +449,7 @@ ul.breadcrumb-navigation {
 	list-style: outside none none;
 }
 .breadcrumb-navigation li span {
-	color: #C61633;
+	color: #c61633;
 }
 ul.breadcrumb-navigation li {
 	display: inline;
@@ -2399,4 +2400,244 @@ header .main-navigation > li:hover .second-list {
 	.model-content .text .btext {
 display: none;
 	}
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+.modalDialog:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+.close {
+	background: #ff6b6b;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #c61633; }
+
+/***************************************************************/
+/************************news page******************************/
+/***************************************************************/
+
+#validEmailNews {margin-top: 8px; margin-left:5px; position: absolute; width: 16px; height: 16px; }
+
+
+#DeliveryNews { background: #ffffff;margin-top:3px; height: 160px; background-color: #ffffff;}
+#DeliveryNews #MailNews { background:url(../resources/images/news/MailBg.png) center left no-repeat; width:49%; float:left; margin-top:50px;}
+#DeliveryNews #MailNews p { font-size:18px;color:#303030; padding-left:13%; line-height:1.5;}
+#DeliveryNews #MailNews p.BotP { font-size:22px; font-family: 'RobotoMedium';}
+#DeliveryNews #RazdelNews {float:left; height:163px; background:#FFF; width:3px; }
+#DeliveryNews #FormNews {float:left; padding-top:26px; padding-left:32px; width:34%;}
+#DeliveryNews #FormNews input {font-size:18px; color:#b9b9b9; font-style:italic; width:100%; background:none; border:none; border-bottom:1px solid #f9764f; line-height:35px; height:35px; padding:0 10px;font-family: 'RobotoLight'; margin-bottom:15px;}
+#DeliveryNews #FormNews #statusSubscribeToNews {padding-bottom: 20px; color: #F9764F; }
+#DeliveryNews #ButtomNews {float:left;color:#f9764f; text-align:center; font-size:18px; width:145px; height:40px; line-height:40px; margin-left:auto; margin-left:3%; margin-top:62px;}
+#DeliveryNews #ButtomNews a {border:2px solid #f9764f; border-radius:6px; color:#f9764f;; display:block; text-decoration:none; }
+#DeliveryNews #ButtomNews a:hover {background-color:#f9764f; color:#fff; cursor: pointer}
+
+#AllNewsList ul {}
+#AllNewsList ul li { border-bottom:7px solid #B0DCD3; padding:50px; font-family: sans-serif; border-top:7px solid #f9dda2;}
+#AllNewsList ul li img { float:left; width:316px; border:6px solid #b0dcd3; border-radius:6px;}
+#AllNewsList ul li #DescriptNews { float:left; width:70%; margin-left:30px;}
+#AllNewsList ul li #DescriptNews #mainDescription{ height:130px; overflow: hidden; -webkit-column-width: 1000px; -moz-column-width: 1000px;}
+
+#AllNewsList ul li #DescriptNews p {font-size: 16px;}
+#AllNewsList ul li #DescriptNews p.TitleNewsList { font-size:22px; color:#303030; font-family: 'RobotoMedium';}
+#AllNewsList ul li #DescriptNews p.DateNewsList { font-size:14px; color:#c4c0b5; font-family: 'RobotoLight'; margin-top:8px; margin-bottom:18px;}
+#AllNewsList ul li #DescriptNews p.DescrNewsList { font-size:16px; color:#757575; font-family: 'RobotoLight'; line-height:1.5;}
+#AllNewsList ul li #DescriptNews p.ItemOfNews {font-size: 14px; margin-left:15px;}
+#AllNewsList ul li .ButtomNewsList {background-color:#e35c56; text-align:center; font-size:18px; width:150px; line-height:30px; margin-left:auto; margin-top:226px; border-radius: 6px}
+#AllNewsList ul li .ButtomNewsList a {color: #fff; display:block; text-decoration:none; font-size:16px;border-radius:6px; }
+
+
+#NavNews {}
+#NavigationNews {width:500px; margin:0 auto; padding-bottom:2%;}
+#NavigationNews ul {display: flex; justify-content: center; align-items: center;padding-top: 30px}
+#NavigationNews ul li { float:left; margin-right:2px; border:none !important; background:none !important;}
+#NavigationNews ul li a { text-decoration:none; font-size:22px; color:#030303; line-height:1; padding:5px; font-family: 'RobotoLight'; }
+#NavigationNews ul li a:hover { border:2px solid #7ec3d7; border-radius:5px; padding:3px; padding-bottom:0; padding-top:0;}
+#NavigationNews ul li a:focus { color:#c4c0b5;}
+#NavigationNews ul li a.TxNews:hover { border:none;padding:5px; border-bottom:2px solid #35AEE0; border-radius:0; padding-bottom:3px;}
+#NavigationNews ul li a.TxNews:focus { color:#030303;}
+
+
+/*-------------------------------------*/
+@media screen and (max-width: 1200px) { /* 980<width<1200 main 980*/
+	section { width:100%;}
+
+	#DeliveryNews { }
+	#DeliveryNews #MailNews { margin-top:45px;}
+	#DeliveryNews #MailNews p { font-size:16px; padding-left:15%;}
+	#DeliveryNews #MailNews p.BotP { font-size:18px;}
+	#DeliveryNews #RazdelNews { height:150px;}
+	#DeliveryNews #FormNews { width:30%; padding-top:23px;}
+	#DeliveryNews #ButtomNews { width:125px; margin-left:5%;}
+
+	#AllNewsList { padding-top: 50px;}
+	#AllNewsList ul li img { width:300px; border-left:5px solid #7fba07  }
+	#AllNewsList ul li #DescriptNews { width:63%; margin-left:25px;}
+	#AllNewsList ul li #DescriptNews #mainDescription{ height:130px; overflow: hidden; -webkit-column-width: 1000px; -moz-column-width: 1000px;}
+	#AllNewsList ul li #DescriptNews p.TitleNewsList { font-size:19px;}
+	#AllNewsList ul li #DescriptNews p.DateNewsList { font-size:13px;}
+	#AllNewsList ul li #DescriptNews p.DescrNewsList { font-size:14px;}
+	#AllNewsList ul li .ButtomNewsList { height:55px; line-height:55px;  margin-top:215px; font-size:20px;}
+
+}
+/*-------------------------------------*/
+@media screen and (max-width: 979px) { /* 768<width<979 main 768*/
+
+	#DeliveryNews { }
+	#DeliveryNews #MailNews { margin-top:35px; background-size:13%;}
+	#DeliveryNews #MailNews p { font-size:12px; padding-left:15%;}
+	#DeliveryNews #MailNews p.BotP { font-size:14px;}
+	#DeliveryNews #RazdelNews { height:120px;}
+	#DeliveryNews #FormNews { width:25%; padding-top:10px; padding-left:12px;}
+	#DeliveryNews #FormNews input {padding-top:20px; line-height:30px; height:30px; padding:0 10px; font-size:16px;}
+	#DeliveryNews #ButtomNews { width:125px; margin-left:5%; margin-top:40px;}
+	#AllNewsList { padding-top: 40px;}
+	#AllNewsList ul li img { width:280px; border-left:4px solid #7fba07
+	}
+	#AllNewsList ul li #DescriptNews { width:56%; margin-left:25px;}
+	#AllNewsList ul li #DescriptNews #mainDescription{ height:130px; overflow: hidden; -webkit-column-width: 1000px; -moz-column-width: 1000px;}
+	#AllNewsList ul li #DescriptNews p.TitleNewsList { font-size:17px;}
+	#AllNewsList ul li #DescriptNews p.DateNewsList { font-size:12px; margin-bottom:10px;}
+	#AllNewsList ul li #DescriptNews p.DescrNewsList { font-size:13px;}
+	#AllNewsList ul li .ButtomNewsList { margin-top:205px; height:50px; line-height:50px;}
+	#AllNewsList ul li .ButtomNewsList a { font-size:20px;}
+
+
+}
+/*-------------------------------------*/
+@media screen and (max-width: 767px) { /* 480<width<767 main 480*/
+	#DeliveryNews {margin-top:0;  padding-bottom:20px;}
+	#DeliveryNews #MailNews { float:none; margin:0; width:100%; background-size:8%; background-position:23px 17px; padding-top:15px; padding-bottom:5px;}
+	#DeliveryNews #RazdelNews { display:none}
+	#DeliveryNews #FormNews{ float:none; width:100%;}
+	#DeliveryNews #ButtomNews { float:none; width:100%; margin-left:0; margin-top:15px;}
+
+	#DeliveryNews { }
+	#AllNewsList { padding-top: 30px;}
+	#AllNewsList ul li img { border-left:3px solid #7fba07; display:none}
+	#AllNewsList ul li #DescriptNews { width:100%; margin-left:0;}
+	#AllNewsList ul li #DescriptNews #mainDescription{ height:130px; overflow: hidden; -webkit-column-width: 1000px; -moz-column-width: 1000px;}
+	#AllNewsList ul li #DescriptNews p.TitleNewsList { font-size:16px;}
+	#AllNewsList ul li #DescriptNews p.DateNewsList { font-size:14px; margin-bottom:10px;}
+	#AllNewsList ul li #DescriptNews p.DescrNewsList { font-size:14px;}
+	#AllNewsList ul li .ButtomNewsList {height:30px; line-height:30px; width:100%; }
+	#AllNewsList ul li .ButtomNewsList a { font-size:16px;}
+
+	#NavigationNews {width:400px; padding-bottom:20px;}
+	#NavigationNews ul li a { font-size:16px; }
+}
+/*-------------------------------------*/
+@media screen and (max-width: 479px) { /* 320<width<479 main 320*/
+	html {width:100%; min-width:307px;}
+
+	#DeliveryNews #MailNews { background-position:15px 17px;  padding-top:10px;}
+	#DeliveryNews #MailNews p { font-size:12px;}
+	#DeliveryNews #MailNews p.BotP { font-size:12px;}
+	#DeliveryNews #FormNews input {padding-top:20px; line-height:25px; height:25px; padding:0 10px; font-size:14px;}
+
+	#DeliveryNews { }
+	#AllNewsList { padding-top: 20px;}
+	#AllNewsList ul li .ButtomNewsList { margin-top:235px;}
+	#AllNewsList ul li #DescriptNews #mainDescription{ height:130px; overflow: hidden; -webkit-column-width: 1000px; -moz-column-width: 1000px;}
+	#AllNewsList ul li #DescriptNews p.TitleNewsList { font-size:14px;}
+	#AllNewsList ul li #DescriptNews p.DateNewsList { font-size:11px; margin-bottom:10px;}
+	#AllNewsList ul li #DescriptNews p.DescrNewsList { font-size:12px;}
+
+	#NavigationNews {width:300px;}
+	#NavigationNews ul li a { font-size:10px; }
+
+
+
+}
+
+/***************************************************************/
+/***************************one new page************************/
+/***************************************************************/
+
+
+#PageOneNuze { background:#F6F8F9; padding-top:15px; padding-bottom:0px; }
+#PageOneNuze #linkBack {width: 1200px; margin: 0 auto}
+#PageOneNuze #TitleOneNuze {font-size:28px; color:#817E8C; margin-bottom:15px; padding-left:31%;}
+#PageOneNuze #ImgOneNuze { float:left; width:30%;}
+#PageOneNuze #ImgOneNuze img { width:94%; }
+#PageOneNuze #DeskrNuze { color: #000000; font-size:16px;}
+#PageOneNuze #DeskrNuze #Date { color: #beb9cc }
+#PageOneNuze #DeskrNuze p { margin-bottom:15px;}
+#PageOneNuze #DeskrNuze ul { margin-bottom: 15px; float: left;}
+#PageOneNuze #DeskrNuze ul p.TitleItems{font-size:24px; color:#fb9600; margin-bottom:20px;}
+#PageOneNuze #DeskrNuze ul li { background:url(../resources/images/template/Items.png) top left no-repeat; padding-left:50px; min-height:31px; padding-top:5px; margin-top:5px;}
+#FotoOfficeFooter{width: 100%; margin: 25px auto; float: left}
+
+/*-------------------------------------*/
+@media screen and (max-width: 1200px) { /* 980<width<1200 main 980*/
+	section { width:100%;}
+	#PageOneNuze #linkBack { padding-left: 20px; padding-top: 10px;}
+	#PageOneNuze #TitleOneNuze {  font-size:34px; margin-bottom:20px; text-align:center; padding-left:0;}
+
+}
+/*-------------------------------------*/
+@media screen and (max-width: 979px) { /* 768<width<979 main 768*/
+
+	#PageOneNuze {padding-top:0px; padding-bottom:30px;}
+	#PageOneNuze #linkBack { padding-left: 15px; padding-bottom: 5px;}
+	#PageOneNuze #TitleOneNuze {  font-size:30px; margin-bottom:17px;}
+	#PageOneNuze #DeskrNuze { font-size:16px;}
+}
+/*-------------------------------------*/
+@media screen and (max-width: 767px) { /* 480<width<767 main 480*/
+	#PageOneNuze {padding-top:0; padding-bottom:20px;}
+	#PageOneNuze #linkBack { padding-left: 10px; padding-bottom: 10px;}
+	#PageOneNuze #TitleOneNuze {  font-size:26px; margin-bottom:15px;}
+	#PageOneNuze #DeskrNuze ul li { background-size:26px; padding-left:40px; padding-top:3px; min-height:26px;}
+}
+/*-------------------------------------*/
+@media screen and (max-width: 479px) { /* 320<width<479 main 320*/
+	html {width:100%; min-width:307px;}
+	#PageOneNuze {padding-top: 5px;}
+	#PageOneNuze #linkBack { padding-left: 10px; padding-bottom: 7px;}
+	#PageOneNuze #TitleOneNuze { font-size:22px; margin-bottom:5px;}
+	#PageOneNuze #ImgOneNuze { float:none; width:80%; margin:0 auto}
+	#PageOneNuze #DeskrNuze { font-size:14px;}
+	#PageOneNuze #DeskrNuze ul p.TitleItems{font-size:20px; color:#fb9600; margin-bottom:20px;}
 }

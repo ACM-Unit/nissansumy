@@ -8,7 +8,7 @@
             <ul class="dropdown-inside">
                 <li><a href="${CONTEXT}/micraView">Обзор модели</a></li>
                 <li><a href="${CONTEXT}/micraSelectColor">Выбор цвета</a></li>
-                <li><a href="${CONTEXT}/pdf/Micra.pdf" download>Скачать прайс</a></li>
+                <li><a href="http://media.nissan.eu/content/dam/pes/UA/common/prices-and-equipments/Micra.pdf" download>Скачать прайс</a></li>
                 <li><a href="${CONTEXT}/pdf/Micra_ua.pdf" download>Скачать брошюру</a></li>
             </ul>
         </li>

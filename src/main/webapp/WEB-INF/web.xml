@@ -64,6 +64,63 @@
     <url-pattern>/home.jsp</url-pattern>
   </servlet-mapping>
 
+
+
+
+  <servlet>
+    <servlet-name>AdminPageController</servlet-name>
+    <servlet-class>controllers.AdminPageController
+    </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminPageController</servlet-name>
+    <url-pattern>/admin/adminPage.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminPageController</servlet-name>
+    <url-pattern>/user/adminPage.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminPageController</servlet-name>
+    <url-pattern>/adminPage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UpdatePriceController</servlet-name>
+    <servlet-class>controllers.UpdatePriceController
+    </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdatePriceController</servlet-name>
+    <url-pattern>/admin/updatePrice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePriceController</servlet-name>
+    <url-pattern>/user/updatePrice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePriceController</servlet-name>
+    <url-pattern>/updatePrice</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>NewsListController</servlet-name>
+    <servlet-class>controllers.news.NewsListController
+    </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewsListController</servlet-name>
+    <url-pattern>/admin/newsList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsListController</servlet-name>
+    <url-pattern>/user/newsList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsListController</servlet-name>
+    <url-pattern>/newsList</url-pattern>
+  </servlet-mapping>
+
   <servlet>
     <servlet-name>AutoController</servlet-name>
     <servlet-class>controllers.AutoController

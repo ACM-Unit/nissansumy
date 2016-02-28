@@ -8,7 +8,7 @@
             <ul class="dropdown-inside">
                 <li><a href="${CONTEXT}/sentraView">Обзор модели</a></li>
                 <li><a href="${CONTEXT}/sentraSelectColor">Выбор цвета</a></li>
-                <li><a href="${CONTEXT}/pdf/Sentra.pdf" download>Скачать прайс</a></li>
+                <li><a href="https://media.nissan.eu/content/dam/pes/UA/common/prices-and-equipments/Sentra.pdf" download>Скачать прайс</a></li>
                 <li><a href="${CONTEXT}/pdf/Sentra_ua.pdf" download>Скачать брошюру</a></li>
             </ul>
         </li>

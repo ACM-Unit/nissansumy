@@ -8,7 +8,7 @@
             <ul class="dropdown-inside">
                 <li><a href="${CONTEXT}/muranoView">Обзор модели</a></li>
                 <li><a href="${CONTEXT}/muranoSelectColor">Выбор цвета</a></li>
-                <li><a href="${CONTEXT}/pdf/Murano.pdf" download>Скачать прайс</a></li>
+                <li><a href="http://media.nissan.eu/content/dam/pes/UA/common/prices-and-equipments/Murano.pdf" download>Скачать прайс</a></li>
                 <li><a href="${CONTEXT}/pdf/Murano_ua.pdf" download>Скачать брошюру</a></li>
             </ul>
         </li>

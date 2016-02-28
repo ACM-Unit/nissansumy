@@ -7,7 +7,7 @@
             <ul class="dropdown-inside">
                 <li><a href="${CONTEXT}/jukeView">Обзор модели</a></li>
                 <li><a href="${CONTEXT}/jukeSelectColor">Выбор цвета</a></li>
-                <li><a href="${CONTEXT}/pdf/Juke_MC.pdf" download>Скачать прайс</a></li>
+                <li><a href="http://media.nissan.eu/content/dam/pes/UA/common/prices-and-equipments/Juke_MC.pdf" download>Скачать прайс</a></li>
                 <li><a href="${CONTEXT}/pdf/Juke.pdf" download>Скачать брошюру</a></li>
             </ul>
         </li>

@@ -10,7 +10,8 @@ public interface Constants {
     String CURRENT_SESSION_ACCOUNT = "CURRENT_SESSION_ACCOUNT";
     String CURRENT_ROLE = "CURRENT_ROLE";
     String CURRENT_MAPPING = "CURRENT_MAPPING";
-
+    int NUM_TEXT_LETERS_OF_NEWS = 300;
+    int NUM_NEWS_ON_PAGE = 10;
     int ROLE_ADMIN = 1;
     int ROLE_USER = 2;
 }

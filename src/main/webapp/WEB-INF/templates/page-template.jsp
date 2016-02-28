@@ -238,6 +238,30 @@
             </div>
         </div>
     </div>
+    <a href="#openModal">Войти</a>
+
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="#close" title="Закрыть" class="close">X</a>
+            <h2>Войти</h2>
+            <form action="/adminPage" method="POST">
+                <input name="sessid" id="sessidi" value="7760f83dfaf0d65e2d72538d179a5918" type="hidden">				<div class="mf-name">
+                <div class="mf-text">
+                    Логин
+                </div>
+                <input name="login" value="" type="text">
+            </div>
+                <div class="mf-name">
+                    <div class="mf-text">
+                        Пароль
+                    </div>
+                    <input name="password" value="" type="password">
+                </div>
+                <input name="PARAMS_HASH" value="362b7f66a0f9b22ca786ffa471af4743" type="hidden">
+                <input name="submit" class="button" value="Войти" type="submit">
+            </form>
+        </div>
+    </div>
     <div class="copyright">
         © 2016 «Авто плюс» — Официальный дилер NISSAN.		</div>
 </footer>

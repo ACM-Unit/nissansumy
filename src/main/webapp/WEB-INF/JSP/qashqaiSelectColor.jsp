@@ -8,7 +8,7 @@
             <ul class="dropdown-inside">
                 <li><a href="${CONTEXT}/qashqaiView">Обзор модели</a></li>
                 <li><a href="${CONTEXT}/qashqaiSelectColor">Выбор цвета</a></li>
-                <li><a href="${CONTEXT}/pdf/QQ_New.pdf" download>Скачать прайс</a></li>
+                <li><a href="http://media.nissan.eu/content/dam/pes/UA/common/prices-and-equipments/QQ_New.pdf" download>Скачать прайс</a></li>
                 <li><a href="${CONTEXT}/pdf/Qashqai.pdf" download>Скачать брошюру</a></li>
             </ul>
         </li>
