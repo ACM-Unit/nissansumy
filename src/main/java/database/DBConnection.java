@@ -65,8 +65,8 @@ public class DBConnection {
             loadAllPrices = conn.prepareStatement("SELECT * from prices");
             loadPrice=conn.prepareStatement("SELECT * from prices WHERE  model=?");
             loadAllNews = conn.prepareStatement("SELECT * from NEWS");
-            insertPrice = conn.prepareStatement("INSERT INTO PRICES(MODEL, PRICE) VALUES(?, ?)");
-            updatePrice = conn.prepareStatement("UPDATE PRICES SET PRICES.PRICE = ? WHERE PRICES.MODEL= ?");
+            insertPrice = conn.prepareStatement("INSERT INTO prices(model, price) VALUES(?, ?)");
+            updatePrice = conn.prepareStatement("UPDATE prices SET prices.price = ? WHERE prices.model= ?");
             //news
             toCountNewsFromCity = conn.prepareStatement("SELECT count(*) AS count FROM link_city_news");
             getAllNews = conn.prepareStatement("SELECT n.id as n_id,\n" +
