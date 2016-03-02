@@ -159,6 +159,10 @@
     <servlet-name>ServiceController</servlet-name>
     <url-pattern>/service</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServiceController</servlet-name>
+    <url-pattern>/service.php</url-pattern>
+  </servlet-mapping>
 
   <servlet>
     <servlet-name>ServicesController</servlet-name>
@@ -176,6 +180,10 @@
   <servlet-mapping>
     <servlet-name>ServicesController</servlet-name>
     <url-pattern>/services</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServicesController</servlet-name>
+    <url-pattern>/services.php</url-pattern>
   </servlet-mapping>
 
   <servlet>
@@ -195,6 +203,11 @@
     <servlet-name>OurAutoCenterController</servlet-name>
     <url-pattern>/ourAutoCenter</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OurAutoCenterController</servlet-name>
+    <url-pattern>/ourAutoCenter.php</url-pattern>
+  </servlet-mapping>
+
 
   <servlet>
     <servlet-name>MicraController</servlet-name>

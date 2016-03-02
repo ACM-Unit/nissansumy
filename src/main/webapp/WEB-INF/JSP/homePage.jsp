@@ -60,18 +60,18 @@
                 <a href="${CONTEXT}/qashqai.jsp" style=" bottom: 0px; margin-left:-15px; z-index:2; position:relative;">
                     <img src="${CONTEXT}/index_files/e2c6de24bc47eb12f0ffd477e92fcde2.png" alt="" title="" border="0">
                 </a>
-                <a href="${CONTEXT}/murano.jsp" style=" bottom: 0px; margin-left:-15px; z-index:1; position:relative;">
+            <%--    <a href="${CONTEXT}/murano.jsp" style=" bottom: 0px; margin-left:-15px; z-index:1; position:relative;">
                     <img src="${CONTEXT}/index_files/eb5a8590cca42ada8045f960239554d8.png" alt="" title="" border="0">
-                </a>
+                </a>--%>
 
 
             </div>
             <div class="carBlock">
                 <span>Внедорожники</span>
-                <a href="${CONTEXT}/patrol.php" style=" bottom: 0px; margin-left:-15px; z-index:3; position:relative;">
+<%--                <a href="${CONTEXT}/patrol.jsp" style=" bottom: 0px; margin-left:-15px; z-index:3; position:relative;">
                     <img src="${CONTEXT}/index_files/patrol_small.png" alt="" title="" border="0">
-                </a>
-                <a href="${CONTEXT}/xTrail.php" style=" bottom: 0px; margin-left:-15px; z-index:1; position:relative;">
+                </a>--%>
+                <a href="${CONTEXT}/xTrail.jsp" style=" bottom: 0px; margin-left:-15px; z-index:1; position:relative;">
                     <img src="${CONTEXT}/index_files/index.png" alt="" title="" border="0">
                 </a>
 

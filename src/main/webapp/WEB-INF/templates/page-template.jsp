@@ -122,7 +122,7 @@
                                 <p style="margin:0;padding:0;">QASHQAI</p> <span>от ${qashqai} грн.</span>
                             </a>
                         </li>
-                        <li>
+               <%--         <li>
                             <a href="${CONTEXT}/murano.jsp">
                                 <img src="/index_files/89a8acf0d6584e86dc51abc18fd1b871.png" alt="MURANO" height="40" width="100">
                                 <p style="margin:0;padding:0;">MURANO</p> <span>от ${murano} грн.</span>
@@ -133,7 +133,7 @@
                                 <img src="/index_files/Patrol-119x62.png" alt="PATROL " height="40" width="100">
                                 <p style="margin:0;padding:0;">PATROL </p> <span>от ${patrol} грн.</span>
                             </a>
-                        </li>
+                        </li>--%>
                         <li>
                             <a href="${CONTEXT}/xTrail.jsp">
                                 <img src="/index_files/l.jpg" alt="X-TRAIL" height="43" width="100">

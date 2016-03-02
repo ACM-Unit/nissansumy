@@ -30,7 +30,7 @@
                     <br><br>NISSAN QASHQAI <span>от ${qashqai} грн.</span>
                 </a>
             </li>
-            <li>
+           <%-- <li>
                 <a href="${CONTEXT}/murano.jsp">
                     <img src="${CONTEXT}/index_files/cd1fc188db91a3d145e7a584662f5b56.png" alt="NISSAN MURANO" height="92" width="180">
                     <br><br>NISSAN MURANO <span>от ${murano} грн.</span>
@@ -41,7 +41,7 @@
                     <img src="${CONTEXT}/index_files/patrol_big.jpg" alt="NISSAN Patrol " height="100" width="154">
                     <br><br>NISSAN PATROL  <span>от ${patrol} грн.</span>
                 </a>
-            </li>
+            </li>--%>
             <li>
                 <a href="${CONTEXT}/xTrail.jsp">
                     <img src="${CONTEXT}/index_files/l2.jpg" alt="NISSAN X-TRAIL" height="92" width="180">
