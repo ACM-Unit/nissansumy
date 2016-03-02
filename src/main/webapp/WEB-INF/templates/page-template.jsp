@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html lang="ru"><head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/index_files/favicon.ico" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="www.google-analytics.com/analytics.js" async=""></script>
     <script>
@@ -48,7 +49,7 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="robots" content="index, follow">
-    <meta name="keywords" content="дилер nissan,дилер ниссан в сумах,дилер ниссан в украине,авто плюс,ниссан,купить ниссан,купить nissan,продажа ниссан,продажа nissan в киеве,продажа нового ниссан в украине,продажа нового ниссан в киеве,новые ниссан,цены на новый ниссан">
+    <meta name="keywords" content="дилер nissan,дилер ниссан в сумах,дилер ниссан в украине,авто плюс,ниссан,купить ниссан,купить nissan,продажа ниссан,продажа nissan в сумах,продажа нового ниссан в украине,продажа нового ниссан в сумах,новые ниссан,цены на новый ниссан,сумы ниссан,сумы nissan,сумы ниссан купить,сумы nissan купить,сумы ниссан сто,сумы nissan сто,сумы ниссан автосалон,сумы nissan автосалон,сумы ниссан дилер,сумы nissan дилер,сумы ниссан официал,сумы nissan официал,ниссан акции,nissan акции,ниссан цены,nissan цены,сумы ниссан гарантия,сумы nissan гарантия,ниссан кредит,nissan кредит,ниссан финанс,nissan finance">
     <meta name="description" content="Сайт официального дилера Nissan - Авто плюс. Nissan в Сумах. Цены и комплектации Ниссан. Специальные предложения и условия кредитования. Тел: (0542) 679-259">
     <link href="${CONTEXT}/index_files/core.css?13933280758964" type="text/css" rel="stylesheet">
     <link href="${CONTEXT}/index_files/core_popup.css?139332766115855" type="text/css" rel="stylesheet">
