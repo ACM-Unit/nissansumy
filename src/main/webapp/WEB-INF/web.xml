@@ -63,7 +63,10 @@
     <servlet-name>HomeController</servlet-name>
     <url-pattern>/home.jsp</url-pattern>
   </servlet-mapping>
-
+  <servlet-mapping>
+    <servlet-name>HomeController</servlet-name>
+    <url-pattern>/home.php</url-pattern>
+  </servlet-mapping>
 
 
 
