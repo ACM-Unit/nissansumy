@@ -4,6 +4,7 @@
     <div class="slider">
         <ul class="slides">
             <li class="slide"><div class="box"><a href="http://www.nissan.ua/UA/ru/services-fleet/vehicles/offer/combat.html" style="height: auto;"><img src="${CONTEXT}/index_files/tactics_jan_push_2_980x435_ru.jpg" style="width: 100%;"></a></div></li>
+            <li class="slide"><div class="box"><a href="http://www.nissan.ua/UA/ru/services-fleet/vehicles/offer/service.html" style="height: auto;"><img src="${CONTEXT}/index_files/index.jpg" style="width: 100%;"></a></div></li>
             <li class="slide"><div class="box"><a href="http://ukr.nissan.ua/UA/uk/services-fleet/vehicles/offer/you_nissan.html" style="height: auto;"><img src="${CONTEXT}/index_files/indexNissanYou.jpg" style="width: 100%;"></a></div></li>
             <li class="slide"><div class="box"><a href="http://www.nissan.ua/UA/ru/services-fleet/vehicles/offer/accessories.html" style="height: auto;"><img src="${CONTEXT}/index_files/accessories_480x435_push_ru.jpg" style="width: 100%;"></a></div></li>
             <li class="slide"><div class="box"><a href="${CONTEXT}/juke.jsp" style="height: auto;"><img src="${CONTEXT}/index_files/juke_mc_980x435_ru.jpg" style="width: 100%;"></a></div></li>
@@ -27,13 +28,13 @@
 </div>
 <ul class="promo">
     <li>
-        <a target="_top" href="/tools/banner/click.php?id=401"><img src="/index_files/01.jpg" alt="YOU + Nissan  Акция" height="110" border="0" width="264"><span>YOU + Nissan  Акция</span></a>
+        <a style="z-index: 1000" href="http://www.nissan.ua/UA/ru/services-fleet/vehicles/offer/service.html"><img src="/index_files/01.jpg" alt="YOU + Nissan  Акция" height="110" border="0" width="264"><span>специальные условия</span></a>
     </li>
     <li>
-        <a target="_top" href="/tools/banner/click.php?id=397"><img src="/index_files/97.jpg" alt="Эксклюзивное предложение" height="110" border="0" width="264"><span>Эксклюзивное предложение</span></a>
+        <a target="_top" href=""><img src="/index_files/97.jpg" alt="Эксклюзивное предложение" height="110" border="0" width="264"><span>Эксклюзивное предложение</span></a>
     </li>
     <li>
-        <a target="_top" href="/tools/banner/click.php?id=378"><img src="/index_files/78.jpg" alt="Выгодное предложение" height="117" border="0" width="264"><span>Выгодное предложение</span></a>
+        <a target="_top" href=""><img src="/index_files/78.jpg" alt="Выгодное предложение" height="117" border="0" width="264"><span>Выгодное предложение</span></a>
     </li>
 </ul>
 

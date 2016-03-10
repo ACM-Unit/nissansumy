@@ -81,7 +81,6 @@
 </head>
 <body>
 
-<div class="container">
     <header>
         <a href="${CONTEXT}/home.jsp" class="logo"></a>
 
@@ -179,8 +178,6 @@
         <jsp:include page="${currentPage}" flush="true" />
 
     </div>
-    <div class="push"></div>
-</div>
 
 <footer>
     <div class="contacts">
